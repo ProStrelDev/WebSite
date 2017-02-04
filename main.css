@@ -1,0 +1,122 @@
+body {
+    font-family: "Roboto" , sans-serif;
+    background: url(img/balk_wallpaper.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.container{
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+}        
+
+                                                    /* НАВИГАЦИЯ */
+.main-nav {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 0;
+    padding: 0;    
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.main-nav a {
+    display: inline-block;
+    padding: 5%;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+ /* Цвет ссылок */
+
+.blue  {
+    background-color: cornflowerblue;
+    
+}
+.green  {
+    background-color: green;
+    
+}
+.yellow{
+    background-color: darkblue;
+}
+
+.purpule {
+    background-color: purple;
+}
+.orange{
+    background-color: orange;
+}
+
+.pink {
+    background-color: red;
+}
+
+
+.blue:hover  {
+    background-color: #3266c3;
+    
+}
+.green:hover  {
+    background-color: #006100;
+    
+}
+.yellow:hover{
+    background-color: #000065;
+}
+
+.purpule:hover {
+    background-color: #650065;
+}
+.orange:hover{
+    background-color: #be7b00;
+}
+
+.pink:hover {
+    background-color: #b60000;
+}
+
+footer{
+ padding-bottom: 44px;
+  padding-top: 44px;
+}
+
+/* ==========================
+   БОКОВОЕ МЕНЮ
+   ==========================
+*/
+.hero {
+    margin-top: 50px;
+}
+
+aside{
+    float: left;
+    
+    height: 400px;
+    width: 20%;
+}
+aside a {
+    display: block;
+    padding: 15%;
+    margin: 2px 0;
+    border-radius: 5px;
+    background-color:#5d0b14;
+    
+}
+
+
+aside a:hover {
+    background-color:#790512;
+}
+
+
+
